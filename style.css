@@ -1,0 +1,68 @@
+body{
+    background-color:rgb(#e4e71ff5);
+    margin:0 20%;
+    padding: 30px;
+   }
+
+#main{
+   color: #0b202e;
+   font-family: "Josefin Slab", serif;
+   font-size: 20px;
+}
+}
+#title{
+    text-align: center;
+    margin: auto;
+    color: #54b3ee;
+    font-style: bold;
+    line-height: 20px;
+    padding: 5px;
+    font-size: 30px;
+
+}
+
+#img-div{
+   text-align: center;
+   padding-bottom: 10px;
+   background-color: #ecf0f1;
+   
+  
+}
+#img {
+    display: block;
+    margin: 40px auto 20px auto;
+    padding-left: 0px;
+    position: center;
+}
+.responsive-img {
+    max-width: 100%;
+      height: auto;}
+      
+#img-caption{
+    font-size: 14px;
+
+}
+
+
+#tribute-info{
+    background-color:rgb(0000.2);
+    box-shadow: 5px 5px 15px 5px grey;
+    padding: 5px 100px;
+    margin-top: 40px;
+    font-size: 30px;
+    
+}
+ul{
+     max-width: 900px;
+    font-family: "source sans pro", sans-serif serif;}
+li{
+    font-size: 20px;
+    margin: auto;
+    text-align: left;
+ }
+#tribute-link {
+    text-align: center;
+    width: 50%;
+}
+h2 {text-align: center;
+}
