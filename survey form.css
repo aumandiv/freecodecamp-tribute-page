@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+
+    background-image: url(https://i.postimg.cc/k45s5wD1/lazada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main
+{
+    background-color: rgb(19, 4, 4);
+    
+    width: 100vw;
+    height: auto;
+}
+
+h1
+{
+    font-size: 35px;
+    text-emphasis-color: rgb(51, 1, 9);
+    text-align: center;
+    
+}
+
+#description
+{
+    font-size: 20px;
+    font-style: bold;
+    margin-bottom: 20px;
+   
+}
+
+form
+{
+   border: 2px solid white;
+   width: 52%;
+   display: block;
+   margin: 0px auto;
+   background-color: rgba(0, 0, 0, 0.897);
+   font-size: 23px;
+   padding: 20px;
+}
+
+form input
+{
+    display: block;
+}
+
+#radio_button input, #checkboxes input
+{
+    display: inline;
+}
+
+#radio_button label, #checkboxes label
+{
+    display: block;
+}
+
+#name, #email, #number, #dropdown
+{
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+}
+
+#name, #email, #number
+{
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+form input, #dropdown
+{
+    margin: 10px 0px;
+}
+
+form p
+{
+    margin: 20px 0px 10px;
+}
+
+textarea
+{
+    width: 100%;
+    height: 200px;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+
+form button
+{
+    background-color: orange;
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+form button:hover
+{
+    background-color: rgb(109, 7, 7);
+    cursor: pointer;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head> 
+    <title>Survey Form</title>
+    <link rel="stylsheet" href="survey form.css"
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+ </head>
+               
+ <body>
+    <h1 id="title">LAZADA Survey Form</h1>
+            <br>
+        <p id="description"><i><center>This survey aims to determine the effect of Lazada's website<br>quality in customer satisfaction </center></i></p>
+        </br>
+
+
+    <form id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" id="name" placeholder="Enter your name..."required>
+
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" placeholder="Enter your email..."required>
+        
+        <label for="number" id="number-label">ID Number:</label>
+        <input type="number" id="number" min="0" max="1000" placeholder="Enter your number.."required>
+     
+  <p>How long have you been using LAZADA's site?</p>
+        <select id="dropdown" required>
+            <option value="">Pick an option</option>
+            <option value="">Under a year</option>
+            <option value="">1 year</option>
+            <option value="">2 years</option>
+            <option value="">3 years</option>
+        </select>   
+        <div id="radio_button">
+            <p id="description">How has been your experience with buying on LAZADA?</p>
+            <label for="1">
+                <input type="radio" name="Experience" id="1" value="good" required>Good
+                </label>
+            <label for="2">
+                <input type="radio" name="Experience" id="2" value="hustle-free" required>Hustle-free
+                </label>
+            <label for="3">
+                <input type="radio" name="Experience" id="3" value="comfortable" required>Comfortable
+                </label>
+            <label for="4">
+                <input type="radio" name="Experience" id="4" value="convenience" required>Convenience
+                </label>
+            </div>
+
+            <div id="checkboxes">
+                <p id="description">What can we do to improve our services for our customers?</p>
+                <label for="5">
+                    <input type="checkbox" name="Fixes" id="5" value="fast delivery">Fast Delivery</label>
+
+                <label for="6">
+                    <input type="checkbox" name="Fixes" id="6" value="Refund & Damage Replacement Period">Refund & Damage Replacement Period</label>
+
+                <label for="7">
+                    <input type="checkbox" name="Fixes" id="7" value="Wrong Item Delivered">Wrong Item Delivered</label>
+
+                <label for="8">
+                    <input type="checkbox" name="Fixes" id="8" value="difficult to contact and Slow response/updates">Difficult to contact and Slow Response/Updates</label>
+               
+                </div>
+                <p id="description">Comments and Suggestions?</p>
+                <textarea name="" id="" placeholder="Enter any comments and suggestions..." ></textarea>
+
+                <button type="submit" id="submit">Submit</button>
+
+            
+    </form>
+
+</body>
+
+
